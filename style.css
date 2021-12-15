@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 50px;
+  padding-top: 150px;
+  padding-left: 240px;
+}
+
+.accueil {
+  width: 100%;
+  height: 100%;
+  background: url(pj/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.medias {
+  display: flex;
+  padding-left: 240px;
+  margin: 20px 0 40px 0;
+}
+
+.mediaBouton {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  cursor: pointer;
+  border-style: solid;
+  border-color: darkgray;
+}
+
+.mediaBouton:hover {
+  background: lightgreen;
+}
+
+.icones {
+  width: 30px;
+}
+
+.Kamil {
+  color: burlywood;
+  font-weight: bolder;
+  -webkit-text-stroke: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+/* bouton "découvrir mon CV sans jouer au jeu" */
+
+.btn {
+  margin-left: 240px;
+  background: gainsboro;
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 3px;
+  border: 2px solid #333;
+  color: gray;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+}
+
+.btn:hover {
+  background: lightgreen;
+  color: black;
+  border-color: black;
+}
+
+/* bouton "jouer au jeu" */
+
+.btn2 {
+  margin-left: 140px;
+  background: #333;
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 3px;
+  border: 2px solid #333;
+  color: beige;
+  transition: all 0.2s ease-in-out;
+  border-color: lightgrey;
+  position: relative;
+}
+
+.btn2:hover {
+  background: lightgreen;
+  color: black;
+  border-color: black;
+  font-weight: bolder;
+}

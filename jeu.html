@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="jeu.css" />
+
+    <title>Jeu - CV de Kamil</title>
+  </head>
+  <body>
+    <h1>CLIQUEZ SUR LE PERSONNAGE POUR SAUTER !</h1>
+    <br />
+    <h2>Évitez le virus et protégez l'ordinateur de Kamil !</h2>
+    <br />
+    <h3>Veuillez patienter ...</h3>
+    <div id="score">SCORE : 0</div>
+    <br />
+    <div id="competences">
+      COMPÉTENCES DE KAMIL DÉBLOQUÉES: <span id="js">Javascript </span
+      ><span id="html">Html </span><span id="css">Css </span
+      ><span id="jquery">jQuery </span><span id="bootstrap">Bootstrap </span
+      ><span id="node">NodeJs </span><span id="ajax">AJAX </span>
+      <span id="mongo">MongoDB </span>
+    </div>
+    <div>
+      <div>
+        <img
+          id="personnage"
+          src="pj/perso.jpg"
+          alt="personnage ordinateur"
+          onclick="saut();"
+        />
+      </div>
+      <div>
+        <img id="obstacle" src="pj/obstacle.png" alt="virus" title="virus" />
+      </div>
+    </div>
+    <br />
+    <div id="virusFin">
+      <img
+        id="grosVirus"
+        src="pj/obstacle.png"
+        alt="virus de très grande taille"
+        title="le virus s'est propagé"
+      />
+    </div>
+    <script src="jeu.js"></script>
+  </body>
+</html>
